@@ -1,0 +1,36 @@
+[1.398s] Invoking command in '/home/future/ros2_turtlecv/build/turtlecv_pubsub': PYTHONPATH=/home/future/ros2_turtlecv/build/turtlecv_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/future/ros2_turtlecv/build/turtlecv_pubsub/build
+[1.815s] running develop
+[2.085s] Removing /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv-pubsub.egg-link (link to .)
+[2.131s] Invoked command in '/home/future/ros2_turtlecv/build/turtlecv_pubsub' returned '0': PYTHONPATH=/home/future/ros2_turtlecv/build/turtlecv_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --uninstall --editable --build-directory /home/future/ros2_turtlecv/build/turtlecv_pubsub/build
+[2.132s] Invoking command in '/home/future/ros2_turtlecv/src/turtlecv_pubsub': PYTHONPATH=/home/future/ros2_turtlecv/build/turtlecv_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlecv_pubsub build --build-base /home/future/ros2_turtlecv/build/turtlecv_pubsub/build install --record /home/future/ros2_turtlecv/build/turtlecv_pubsub/install.log --single-version-externally-managed install_data --force
+[2.530s] running egg_info
+[2.531s] writing ../../build/turtlecv_pubsub/turtlecv_pubsub.egg-info/PKG-INFO
+[2.534s] writing dependency_links to ../../build/turtlecv_pubsub/turtlecv_pubsub.egg-info/dependency_links.txt
+[2.534s] writing entry points to ../../build/turtlecv_pubsub/turtlecv_pubsub.egg-info/entry_points.txt
+[2.534s] writing requirements to ../../build/turtlecv_pubsub/turtlecv_pubsub.egg-info/requires.txt
+[2.534s] writing top-level names to ../../build/turtlecv_pubsub/turtlecv_pubsub.egg-info/top_level.txt
+[2.537s] reading manifest file '../../build/turtlecv_pubsub/turtlecv_pubsub.egg-info/SOURCES.txt'
+[2.539s] writing manifest file '../../build/turtlecv_pubsub/turtlecv_pubsub.egg-info/SOURCES.txt'
+[2.539s] running build
+[2.539s] running build_py
+[2.540s] creating /home/future/ros2_turtlecv/build/turtlecv_pubsub/build
+[2.540s] creating /home/future/ros2_turtlecv/build/turtlecv_pubsub/build/lib
+[2.540s] creating /home/future/ros2_turtlecv/build/turtlecv_pubsub/build/lib/turtlecv_pubsub
+[2.541s] copying turtlecv_pubsub/turtlecv.py -> /home/future/ros2_turtlecv/build/turtlecv_pubsub/build/lib/turtlecv_pubsub
+[2.541s] copying turtlecv_pubsub/__init__.py -> /home/future/ros2_turtlecv/build/turtlecv_pubsub/build/lib/turtlecv_pubsub
+[2.541s] running install
+[2.542s] running install_lib
+[2.542s] creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv_pubsub
+[2.543s] copying /home/future/ros2_turtlecv/build/turtlecv_pubsub/build/lib/turtlecv_pubsub/turtlecv.py -> /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv_pubsub
+[2.544s] copying /home/future/ros2_turtlecv/build/turtlecv_pubsub/build/lib/turtlecv_pubsub/__init__.py -> /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv_pubsub
+[2.544s] byte-compiling /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv_pubsub/turtlecv.py to turtlecv.cpython-310.pyc
+[2.546s] byte-compiling /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv_pubsub/__init__.py to __init__.cpython-310.pyc
+[2.547s] running install_data
+[2.548s] copying resource/turtlecv_pubsub -> /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index/resource_index/packages
+[2.548s] copying package.xml -> /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/turtlecv_pubsub
+[2.548s] running install_egg_info
+[2.550s] Copying ../../build/turtlecv_pubsub/turtlecv_pubsub.egg-info to /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv_pubsub-0.0.0-py3.10.egg-info
+[2.551s] running install_scripts
+[2.587s] Installing turtlecv script to /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/turtlecv_pubsub
+[2.588s] writing list of installed files to '/home/future/ros2_turtlecv/build/turtlecv_pubsub/install.log'
+[2.635s] Invoked command in '/home/future/ros2_turtlecv/src/turtlecv_pubsub' returned '0': PYTHONPATH=/home/future/ros2_turtlecv/build/turtlecv_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlecv_pubsub build --build-base /home/future/ros2_turtlecv/build/turtlecv_pubsub/build install --record /home/future/ros2_turtlecv/build/turtlecv_pubsub/install.log --single-version-externally-managed install_data --force

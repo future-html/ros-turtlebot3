@@ -1,0 +1,24 @@
+[1.950s] Invoking command in '/home/future/ros2_turtlecv/build/turtlecv_pubsub': PYTHONPATH=/home/future/ros2_turtlecv/build/turtlecv_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/future/ros2_turtlecv/build/turtlecv_pubsub/build --no-deps symlink_data
+[2.989s] running develop
+[3.317s] running egg_info
+[3.318s] creating turtlecv_pubsub.egg-info
+[3.318s] writing turtlecv_pubsub.egg-info/PKG-INFO
+[3.319s] writing dependency_links to turtlecv_pubsub.egg-info/dependency_links.txt
+[3.319s] writing entry points to turtlecv_pubsub.egg-info/entry_points.txt
+[3.323s] writing requirements to turtlecv_pubsub.egg-info/requires.txt
+[3.323s] writing top-level names to turtlecv_pubsub.egg-info/top_level.txt
+[3.325s] writing manifest file 'turtlecv_pubsub.egg-info/SOURCES.txt'
+[3.333s] reading manifest file 'turtlecv_pubsub.egg-info/SOURCES.txt'
+[3.333s] writing manifest file 'turtlecv_pubsub.egg-info/SOURCES.txt'
+[3.333s] running build_ext
+[3.334s] Creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv-pubsub.egg-link (link to .)
+[3.334s] Installing turtlecv script to /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/turtlecv_pubsub
+[3.334s] 
+[3.334s] Installed /home/future/ros2_turtlecv/build/turtlecv_pubsub
+[3.334s] running symlink_data
+[3.334s] creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index
+[3.335s] creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index/resource_index
+[3.335s] creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index/resource_index/packages
+[3.335s] symbolically linking /home/future/ros2_turtlecv/build/turtlecv_pubsub/resource/turtlecv_pubsub -> /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index/resource_index/packages
+[3.335s] symbolically linking /home/future/ros2_turtlecv/build/turtlecv_pubsub/package.xml -> /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/turtlecv_pubsub
+[3.382s] Invoked command in '/home/future/ros2_turtlecv/build/turtlecv_pubsub' returned '0': PYTHONPATH=/home/future/ros2_turtlecv/build/turtlecv_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py develop --editable --build-directory /home/future/ros2_turtlecv/build/turtlecv_pubsub/build --no-deps symlink_data

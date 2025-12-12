@@ -1,0 +1,91 @@
+[0.000000] (-) TimerEvent: {}
+[0.000497] (turtlecv) JobQueued: {'identifier': 'turtlecv', 'dependencies': OrderedDict()}
+[0.002374] (turtlecv_pubsub) JobQueued: {'identifier': 'turtlecv_pubsub', 'dependencies': OrderedDict()}
+[0.002630] (turtlecv) JobStarted: {'identifier': 'turtlecv'}
+[0.032523] (turtlecv_pubsub) JobStarted: {'identifier': 'turtlecv_pubsub'}
+[0.100032] (-) TimerEvent: {}
+[0.202657] (-) TimerEvent: {}
+[0.303680] (-) TimerEvent: {}
+[0.406188] (-) TimerEvent: {}
+[0.509036] (-) TimerEvent: {}
+[0.610399] (-) TimerEvent: {}
+[0.712424] (-) TimerEvent: {}
+[0.813336] (-) TimerEvent: {}
+[0.914944] (-) TimerEvent: {}
+[1.016854] (-) TimerEvent: {}
+[1.117803] (-) TimerEvent: {}
+[1.219106] (-) TimerEvent: {}
+[1.320211] (-) TimerEvent: {}
+[1.421595] (-) TimerEvent: {}
+[1.523123] (-) TimerEvent: {}
+[1.624487] (-) TimerEvent: {}
+[1.726923] (-) TimerEvent: {}
+[1.829138] (-) TimerEvent: {}
+[1.936118] (-) TimerEvent: {}
+[1.956487] (turtlecv) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/future/ros2_turtlecv/build/turtlecv/build', '--no-deps', 'symlink_data'], 'cwd': '/home/future/ros2_turtlecv/build/turtlecv', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'future', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/future', 'OLDPWD': '/home/future/ros2_turtlecv', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'th_TH.UTF-8', 'SYSTEMD_EXEC_PID': '1415', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/future/ros2_turtlecv/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'future', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'future', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/rolling/bin:/opt/ros/humble/bin:/home/future/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/future-Standard-PC-Q35-ICH9-2009:@/tmp/.ICE-unix/1373,unix/future-Standard-PC-Q35-ICH9-2009:/tmp/.ICE-unix/1373', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a22a057f_d4fb_492e_8279_7cdbb223c1b9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6TWIH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/future/ros2_turtlecv/install/turtlecv_pubsub:/home/future/ros2_turtlecv/install/turtlecv:/opt/ros/rolling:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/future/ros2_turtlecv/build/turtlecv', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/future/ros2_turtlecv/build/turtlecv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:/home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/future/ros2_turtlecv/install/turtlecv'}, 'shell': False}
+[1.980763] (turtlecv_pubsub) Command: {'cmd': ['/usr/bin/python3', '-W', 'ignore:setup.py install is deprecated', '-W', 'ignore:easy_install command is deprecated', 'setup.py', 'develop', '--editable', '--build-directory', '/home/future/ros2_turtlecv/build/turtlecv_pubsub/build', '--no-deps', 'symlink_data'], 'cwd': '/home/future/ros2_turtlecv/build/turtlecv_pubsub', 'env': {'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'future', 'LC_TIME': 'th_TH.UTF-8', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/lib:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib', 'HOME': '/home/future', 'OLDPWD': '/home/future/ros2_turtlecv', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'LC_MONETARY': 'th_TH.UTF-8', 'SYSTEMD_EXEC_PID': '1415', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/future/ros2_turtlecv/install', 'ROS_DISTRO': 'humble', 'LOGNAME': 'future', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'future', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'ROS_LOCALHOST_ONLY': '0', 'PATH': '/opt/ros/rolling/bin:/opt/ros/humble/bin:/home/future/.local/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/future-Standard-PC-Q35-ICH9-2009:@/tmp/.ICE-unix/1373,unix/future-Standard-PC-Q35-ICH9-2009:/tmp/.ICE-unix/1373', 'XDG_MENU_PREFIX': 'gnome-', 'LC_ADDRESS': 'th_TH.UTF-8', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/a22a057f_d4fb_492e_8279_7cdbb223c1b9', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'LC_TELEPHONE': 'th_TH.UTF-8', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.6TWIH3', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:', 'GNOME_TERMINAL_SERVICE': ':1.106', 'SSH_AGENT_LAUNCHER': 'gnome-keyring', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'ROS_DOMAIN_ID': '30', 'AMENT_PREFIX_PATH': '/home/future/ros2_turtlecv/install/turtlecv_pubsub:/home/future/ros2_turtlecv/install/turtlecv:/opt/ros/rolling:/opt/ros/humble', 'SHELL': '/bin/bash', 'LC_NAME': 'th_TH.UTF-8', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'LC_MEASUREMENT': 'th_TH.UTF-8', 'LC_IDENTIFICATION': 'th_TH.UTF-8', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/future/ros2_turtlecv/build/turtlecv_pubsub', 'LC_ALL': 'en_US.UTF-8', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/future/ros2_turtlecv/build/turtlecv_pubsub/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:/home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages:/home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages:/opt/ros/rolling/lib/python3.10/site-packages:/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages', 'LC_NUMERIC': 'th_TH.UTF-8', 'LC_PAPER': 'th_TH.UTF-8', 'COLCON': '1', 'VTE_VERSION': '6800', 'CMAKE_PREFIX_PATH': '/home/future/ros2_turtlecv/install/turtlecv'}, 'shell': False}
+[2.038841] (-) TimerEvent: {}
+[2.143143] (-) TimerEvent: {}
+[2.246202] (-) TimerEvent: {}
+[2.357485] (-) TimerEvent: {}
+[2.461521] (-) TimerEvent: {}
+[2.569857] (-) TimerEvent: {}
+[2.674978] (-) TimerEvent: {}
+[2.776928] (-) TimerEvent: {}
+[2.878777] (-) TimerEvent: {}
+[2.981136] (-) TimerEvent: {}
+[3.011355] (turtlecv) StdoutLine: {'line': b'running develop\n'}
+[3.021500] (turtlecv_pubsub) StdoutLine: {'line': b'running develop\n'}
+[3.082161] (-) TimerEvent: {}
+[3.184229] (-) TimerEvent: {}
+[3.285777] (-) TimerEvent: {}
+[3.348720] (turtlecv_pubsub) StdoutLine: {'line': b'running egg_info\n'}
+[3.349663] (turtlecv_pubsub) StdoutLine: {'line': b'creating turtlecv_pubsub.egg-info\n'}
+[3.350842] (turtlecv_pubsub) StdoutLine: {'line': b'writing turtlecv_pubsub.egg-info/PKG-INFO\n'}
+[3.351128] (turtlecv_pubsub) StdoutLine: {'line': b'writing dependency_links to turtlecv_pubsub.egg-info/dependency_links.txt\n'}
+[3.351945] (turtlecv_pubsub) StdoutLine: {'line': b'writing entry points to turtlecv_pubsub.egg-info/entry_points.txt\n'}
+[3.355337] (turtlecv_pubsub) StdoutLine: {'line': b'writing requirements to turtlecv_pubsub.egg-info/requires.txt\n'}
+[3.355850] (turtlecv_pubsub) StdoutLine: {'line': b'writing top-level names to turtlecv_pubsub.egg-info/top_level.txt\n'}
+[3.356333] (turtlecv_pubsub) StdoutLine: {'line': b"writing manifest file 'turtlecv_pubsub.egg-info/SOURCES.txt'\n"}
+[3.357541] (turtlecv) StdoutLine: {'line': b'running egg_info\n'}
+[3.358012] (turtlecv) StdoutLine: {'line': b'creating turtlecv.egg-info\n'}
+[3.359477] (turtlecv) StdoutLine: {'line': b'writing turtlecv.egg-info/PKG-INFO\n'}
+[3.362087] (turtlecv) StdoutLine: {'line': b'writing dependency_links to turtlecv.egg-info/dependency_links.txt\n'}
+[3.362401] (turtlecv) StdoutLine: {'line': b'writing entry points to turtlecv.egg-info/entry_points.txt\n'}
+[3.362795] (turtlecv) StdoutLine: {'line': b'writing requirements to turtlecv.egg-info/requires.txt\n'}
+[3.363185] (turtlecv) StdoutLine: {'line': b'writing top-level names to turtlecv.egg-info/top_level.txt\n'}
+[3.363972] (turtlecv) StdoutLine: {'line': b"writing manifest file 'turtlecv.egg-info/SOURCES.txt'\n"}
+[3.365354] (turtlecv_pubsub) StdoutLine: {'line': b"reading manifest file 'turtlecv_pubsub.egg-info/SOURCES.txt'\n"}
+[3.365519] (turtlecv_pubsub) StdoutLine: {'line': b"writing manifest file 'turtlecv_pubsub.egg-info/SOURCES.txt'\n"}
+[3.365889] (turtlecv_pubsub) StdoutLine: {'line': b'running build_ext\n'}
+[3.366226] (turtlecv_pubsub) StdoutLine: {'line': b'Creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/python3.10/site-packages/turtlecv-pubsub.egg-link (link to .)\n'}
+[3.366377] (turtlecv_pubsub) StdoutLine: {'line': b'Installing turtlecv script to /home/future/ros2_turtlecv/install/turtlecv_pubsub/lib/turtlecv_pubsub\n'}
+[3.366503] (turtlecv_pubsub) StdoutLine: {'line': b'\n'}
+[3.366623] (turtlecv_pubsub) StdoutLine: {'line': b'Installed /home/future/ros2_turtlecv/build/turtlecv_pubsub\n'}
+[3.366744] (turtlecv_pubsub) StdoutLine: {'line': b'running symlink_data\n'}
+[3.366865] (turtlecv_pubsub) StdoutLine: {'line': b'creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index\n'}
+[3.367245] (turtlecv_pubsub) StdoutLine: {'line': b'creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index/resource_index\n'}
+[3.367420] (turtlecv_pubsub) StdoutLine: {'line': b'creating /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index/resource_index/packages\n'}
+[3.367548] (turtlecv_pubsub) StdoutLine: {'line': b'symbolically linking /home/future/ros2_turtlecv/build/turtlecv_pubsub/resource/turtlecv_pubsub -> /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/ament_index/resource_index/packages\n'}
+[3.367674] (turtlecv_pubsub) StdoutLine: {'line': b'symbolically linking /home/future/ros2_turtlecv/build/turtlecv_pubsub/package.xml -> /home/future/ros2_turtlecv/install/turtlecv_pubsub/share/turtlecv_pubsub\n'}
+[3.367798] (turtlecv) StdoutLine: {'line': b"reading manifest file 'turtlecv.egg-info/SOURCES.txt'\n"}
+[3.367932] (turtlecv) StdoutLine: {'line': b"writing manifest file 'turtlecv.egg-info/SOURCES.txt'\n"}
+[3.368053] (turtlecv) StdoutLine: {'line': b'running build_ext\n'}
+[3.368173] (turtlecv) StdoutLine: {'line': b'Creating /home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages/turtlecv.egg-link (link to .)\n'}
+[3.368294] (turtlecv) StdoutLine: {'line': b'Installing opencv script to /home/future/ros2_turtlecv/install/turtlecv/lib/turtlecv\n'}
+[3.368415] (turtlecv) StdoutLine: {'line': b'Installing pink_detector script to /home/future/ros2_turtlecv/install/turtlecv/lib/turtlecv\n'}
+[3.368830] (turtlecv) StdoutLine: {'line': b'Installing turtlecv script to /home/future/ros2_turtlecv/install/turtlecv/lib/turtlecv\n'}
+[3.368974] (turtlecv) StdoutLine: {'line': b'\n'}
+[3.369095] (turtlecv) StdoutLine: {'line': b'Installed /home/future/ros2_turtlecv/build/turtlecv\n'}
+[3.369215] (turtlecv) StdoutLine: {'line': b'running symlink_data\n'}
+[3.369335] (turtlecv) StdoutLine: {'line': b'creating /home/future/ros2_turtlecv/install/turtlecv/share/ament_index\n'}
+[3.369476] (turtlecv) StdoutLine: {'line': b'creating /home/future/ros2_turtlecv/install/turtlecv/share/ament_index/resource_index\n'}
+[3.369598] (turtlecv) StdoutLine: {'line': b'creating /home/future/ros2_turtlecv/install/turtlecv/share/ament_index/resource_index/packages\n'}
+[3.369752] (turtlecv) StdoutLine: {'line': b'symbolically linking /home/future/ros2_turtlecv/build/turtlecv/resource/turtlecv -> /home/future/ros2_turtlecv/install/turtlecv/share/ament_index/resource_index/packages\n'}
+[3.370080] (turtlecv) StdoutLine: {'line': b'symbolically linking /home/future/ros2_turtlecv/build/turtlecv/package.xml -> /home/future/ros2_turtlecv/install/turtlecv/share/turtlecv\n'}
+[3.386343] (-) TimerEvent: {}
+[3.414255] (turtlecv_pubsub) CommandEnded: {'returncode': 0}
+[3.440455] (turtlecv_pubsub) JobEnded: {'identifier': 'turtlecv_pubsub', 'rc': 0}
+[3.441113] (turtlecv) CommandEnded: {'returncode': 0}
+[3.456482] (turtlecv) JobEnded: {'identifier': 'turtlecv', 'rc': 0}
+[3.458027] (-) EventReactorShutdown: {}

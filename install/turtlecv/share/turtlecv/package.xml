@@ -1,0 +1,36 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>turtlecv</name>
+  <version>0.0.0</version>
+  <description>TurtleBot3 Computer Vision Package with OpenCV and YOLO Detection</description>
+  <maintainer email="future@todo.todo">future</maintainer>
+  <license>MIT</license>
+  
+  <!-- ROS2 Core Dependencies -->
+  <exec_depend>rclpy</exec_depend>
+  
+  <!-- ROS2 Message Type Dependencies -->
+  <exec_depend>sensor_msgs</exec_depend>
+  <exec_depend>geometry_msgs</exec_depend>
+  <exec_depend>nav_msgs</exec_depend>
+  <exec_depend>std_msgs</exec_depend>
+  
+  <!-- Computer Vision Dependencies -->
+  <exec_depend>cv_bridge</exec_depend>
+  <exec_depend>python3-opencv</exec_depend>
+  <exec_depend>image_transport</exec_depend>
+  
+  <!-- Optional: If using compressed images -->
+  <exec_depend>compressed_image_transport</exec_depend>
+  
+  <!-- Testing Dependencies -->
+  <test_depend>ament_copyright</test_depend>
+  <test_depend>ament_flake8</test_depend>
+  <test_depend>ament_pep257</test_depend>
+  <test_depend>python3-pytest</test_depend>
+  
+  <export>
+    <build_type>ament_python</build_type>
+  </export>
+</package>

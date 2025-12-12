@@ -1,0 +1,5 @@
+[console_scripts]
+opencv = turtlecv.opencv:main
+pink_detector = turtlecv.pink_detector:main
+turtlecv = turtlecv.turtlecv:main
+

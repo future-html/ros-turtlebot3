@@ -1,0 +1,26 @@
+[1.354s] Invoking command in '/home/future/ros2_turtlecv/src/turtlecv': PYTHONPATH=/home/future/ros2_turtlecv/build/turtlecv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlecv build --build-base /home/future/ros2_turtlecv/build/turtlecv/build install --record /home/future/ros2_turtlecv/build/turtlecv/install.log --single-version-externally-managed install_data
+[1.725s] running egg_info
+[1.729s] writing ../../build/turtlecv/turtlecv.egg-info/PKG-INFO
+[1.729s] writing dependency_links to ../../build/turtlecv/turtlecv.egg-info/dependency_links.txt
+[1.730s] writing entry points to ../../build/turtlecv/turtlecv.egg-info/entry_points.txt
+[1.730s] writing requirements to ../../build/turtlecv/turtlecv.egg-info/requires.txt
+[1.730s] writing top-level names to ../../build/turtlecv/turtlecv.egg-info/top_level.txt
+[1.733s] reading manifest file '../../build/turtlecv/turtlecv.egg-info/SOURCES.txt'
+[1.739s] writing manifest file '../../build/turtlecv/turtlecv.egg-info/SOURCES.txt'
+[1.740s] running build
+[1.741s] running build_py
+[1.741s] copying turtlecv/opencv.py -> /home/future/ros2_turtlecv/build/turtlecv/build/lib/turtlecv
+[1.742s] running install
+[1.743s] running install_lib
+[1.743s] copying /home/future/ros2_turtlecv/build/turtlecv/build/lib/turtlecv/opencv.py -> /home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages/turtlecv
+[1.744s] byte-compiling /home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages/turtlecv/opencv.py to opencv.cpython-310.pyc
+[1.746s] running install_data
+[1.747s] running install_egg_info
+[1.751s] removing '/home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages/turtlecv-0.0.0-py3.10.egg-info' (and everything under it)
+[1.751s] Copying ../../build/turtlecv/turtlecv.egg-info to /home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages/turtlecv-0.0.0-py3.10.egg-info
+[1.751s] running install_scripts
+[1.780s] Installing opencv script to /home/future/ros2_turtlecv/install/turtlecv/lib/turtlecv
+[1.781s] Installing pink_detector script to /home/future/ros2_turtlecv/install/turtlecv/lib/turtlecv
+[1.783s] Installing turtlecv script to /home/future/ros2_turtlecv/install/turtlecv/lib/turtlecv
+[1.783s] writing list of installed files to '/home/future/ros2_turtlecv/build/turtlecv/install.log'
+[1.818s] Invoked command in '/home/future/ros2_turtlecv/src/turtlecv' returned '0': PYTHONPATH=/home/future/ros2_turtlecv/build/turtlecv/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/future/ros2_turtlecv/install/turtlecv/lib/python3.10/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated -W ignore:easy_install command is deprecated setup.py egg_info --egg-base ../../build/turtlecv build --build-base /home/future/ros2_turtlecv/build/turtlecv/build install --record /home/future/ros2_turtlecv/build/turtlecv/install.log --single-version-externally-managed install_data

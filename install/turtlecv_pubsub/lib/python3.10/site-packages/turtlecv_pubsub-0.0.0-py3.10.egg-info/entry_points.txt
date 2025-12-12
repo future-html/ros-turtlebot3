@@ -1,0 +1,3 @@
+[console_scripts]
+turtlecv = turtlecv_pubsub.turtlecv:main
+
