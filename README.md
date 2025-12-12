@@ -121,8 +121,8 @@ ros2 run turtlecv opencv
 sudo apt update
 sudo apt install -y ros-humble-usb-cam python3-opencv
 
-# 2. (Optional) Install YOLO
-pip3 install ultralytics
+# 2. (Optional) Install YOLO and opencv
+pip install opencv-python-headless ultralytics
 
 # 3. Clone and build
 git clone https://github.com/yourusername/ros2_turtlecv.git
